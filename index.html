@@ -3,62 +3,16 @@
       <title>
          SRI GANGA SANTOSHI TORATI - WEB DEVELOPER
       </title>
-      <style>
-         .container {
-         width:100%;
-         height:280px;
-         }
-         .container2 {
-         width:100%;
-         height:320px;
-         }
-         #leftbox {
-         float:left; 
-         padding-left: 10%;
-         width:25%;
-         height:280px;
-         }
-         #middlebox{
-         float:left; 
-         padding-left: 0%;
-         width:50%;
-         height:280px;
-         font-size: 20px;
-         }
-         #firstbox {
-         float:left; 
-         width:50%;
-         height:280px;
-         font-size: 20px;
-         }
-         #secondbox{
-         float:left; 
-         width:50%;
-         height:280px;
-         font-size: 20px;
-         }
-         h1{
-         color:white;
-         text-align:center;
-         }
-         h3{
-         margin-block-start: -0.4em; 
-         color:white;
-         text-align:center;
-         font-size: 25px;
-         }
-      </style>
+      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
-      <center>
-         <div style="background-color:rgb(249 129 132)">
-            <h1>I'm SRI GANGA SANTOSHI TORATI</h1>
-            <h3>web developer</h3>
-         </div>
-      </center>
+      <div class="header">
+         <h1>I'm SRI GANGA SANTOSHI TORATI</h1>
+         <h3>web developer</h3>
+      </div>
       <div  class="container">
          <div id = "leftbox">
-            <img src="santoshi.jpg" alt="santoshi" title="SRI GANGA SANTOSHI TORATI" width=80%; height=275px; style="border: 3px solid #555;" />
+            <img src="images/santoshi.jpg" alt="santoshi" title="SRI GANGA SANTOSHI TORATI"   class="profilepic" />
          </div>
          <div id = "middlebox">
             <ul style="list-style-type:none">
@@ -68,71 +22,57 @@
                <li>Flair for exploring new technologies</li>
                <br>
                <li>follow me</li>
-               <li> <a href="https://github.com/Santoshiwebdeveloper" target="_blank"><img src="github.png" alt="github" title="github" width="50" height="50"></a>
-                  <a href="https://www.linkedin.com/in/sri-ganga-santoshi-torati-741081119/" target="_blank"><img src="linkedin.png"  alt="linkedin" title="linkedin" width="50" height="50"></a>
-                  <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffriends%2Frequests%2F%3Ffcref%3Drup" target="_blank"><img src="facebook.png" alt="facebool" title="facebook" width="50" height="50"></a>
+               <li> <a href="https://github.com/Santoshiwebdeveloper" target="_blank"><img src="images/github.png" alt="github" title="github" width="50" height="50"></a>
+                  <a href="https://www.linkedin.com/in/sri-ganga-santoshi-torati-741081119/" target="_blank"><img src="images/linkedin.png"  alt="linkedin" title="linkedin" width="50" height="50"></a>
+                  <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Ffriends%2Frequests%2F%3Ffcref%3Drup" target="_blank"><img src="images/facebook.png" alt="facebool" title="facebook" width="50" height="50"></a>
                </li>
             </ul>
          </div>
       </div>
-      <div style="padding-bottom: 50px;background-color: #000;">
-         <center>
-            <h2 style="font-family: 'Overlock', cursive;color: rgb(6, 87, 87);font-size: 50px;padding-top: 20px;">skills</h2>
-            <hr>
-            <div style="padding-top:40px;">
-                <img src="html.png" alt="html" title="html" width="100px" height="100px">
-                <img src="css.png" alt="css"  title="css" width="100px" height="100px">
-                <img src="react.png"  alt="react" title="react" width="100" height="100">
-                <img src="mongo.png" alt="mongo" title="mongo" width="100" height="100">
-                <img src="node.png" alt="node"  title="node" width="100" height="100">
-                <img src="java.png" alt="java"  title="java" width="100" height="100">
-            </div>
-         </center>
+      <div class="skills">
+         <h2>skills</h2>
+         <hr>
+         <div class="center" >
+            <img src="images/html.png" alt="html" title="html">
+            <img src="images/css.png" alt="css"  title="css" >
+            <img src="images/react.png"  alt="react" title="react" >
+            <img src="images/mongo.png" alt="mongo" title="mongo" >
+            <img src="images/node.png" alt="node"  title="node" >
+            <img src="images/java.png" alt="java"  title="java" width="100px" height="100px">
+         </div>
       </div>
-      <div style="padding-bottom: 80px;">
-         <center>
-            <h2 style="font-family: 'Overlock', cursive;color: rgb(6, 87, 87);font-size: 50px;">Hobbies</h2>
-        </center>
-            <hr>
-            <div  class="container2">
-                <div id = "firstbox">
-                    <h1 style="color:black;">preparing quilling designs</h1>
-            <img src="qulling.png" alt="Quilling art" title="Quilling art" width="50%" height="280px" style="margin-left: 120px;">
+      <div class="hobbies">
+         <h2>Hobbies</h2>
+         <hr>
+         <div  class="container2">
+            <div id = "firstbox">
+               <h1>preparing quilling designs</h1>
+               <img src="images/qulling.png" alt="Quilling art" title="Quilling art" width="50%" height="280px" style="margin-left: 120px;">
             </div>
             <div id = "secondbox">
-                <h1 style="color:black;">cooking andhra recepies</h1>
-                <img src="andhra.png" alt="Andhra specials" title="Andhra specials" width="50%" height="280px"  style="margin-left: 120px;">
+               <h1>cooking andhra recepies</h1>
+               <img src="images/andhra.png" alt="Andhra specials" title="Andhra specials" width="50%" height="280px"  style="margin-left: 120px;">
             </div>
-        </div>
-  
+         </div>
       </div>
       <div>
-         <center>
-            <h2 style="font-family: 'Overlock', cursive;color: rgb(6, 87, 87);font-size: 50px;">Education</h2>
-        </center>
-        <hr>
+         <h2>Education</h2>
+         <hr>
          <ul style="list-style-type:square;font-size: 20px;">
-          <li>Master of Computer Applications at B. V. Raju College affiliated to Andhra University in the year 2017, with an aggregate of 74%.</li>
-          <li>Bachelor of Science from Aditya Degree College affiliated to Andhra University in the year 2014 with an aggregate of 80%. </li>
-          <li>Intermediate from Aditya Junior College affiliated to Board of Intermediate Education in the year 2011 with an aggregate of 81.9%.</li>
-          <li>Secondary School Education from Sri Siddhartha High School of Board of Secondary Education in the year 2009 with an aggregate of 89%.</li>
+            <li>Master of Computer Applications at B. V. Raju College affiliated to Andhra University in the year 2017, with an aggregate of 74%.</li>
+            <li>Bachelor of Science from Aditya Degree College affiliated to Andhra University in the year 2014 with an aggregate of 80%. </li>
+            <li>Intermediate from Aditya Junior College affiliated to Board of Intermediate Education in the year 2011 with an aggregate of 81.9%.</li>
+            <li>Secondary School Education from Sri Siddhartha High School of Board of Secondary Education in the year 2009 with an aggregate of 89%.</li>
          </ul>
-        <hr>
-         
+         <hr>
       </div>
-      
       <div>
-         <center>
-            <h2 style="font-family: 'Overlock', cursive;color: rgb(6, 87, 87);font-size: 50px;">Contact Us</h2>
-        </center>
+         <h2 >Contact Us</h2>
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.443298915666!2d78.43404281418832!3d17.43848410592099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90da3a774759%3A0xc5f3bb016cf194d0!2sMadhura%20Nagar%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1645472065914!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
-      <footer style="background-color:rgb(249 129 132)">
-         <center>
-            <p>&copy; 2022 My Resume. All rights reserved
-            </p>
-            <p>Created By <a target="_blank" href="">SRI GANGA SANTOSHI TORATI - WEB DEVELOPER</a></p>
-         </center>
+      <footer class="footer">
+         <p>&copy; 2022 My Resume. All rights reserved</p>
+         <p>Created By <a target="_blank" href="">SRI GANGA SANTOSHI TORATI - WEB DEVELOPER</a></p>
       </footer>
    </body>
    <footer>
